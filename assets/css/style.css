@@ -1,0 +1,67 @@
+
+:root{
+    --dark-blue: #212529;
+    --gray:#707070;
+    --green: #28A745;
+}
+
+    
+    
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav{
+    background-color: var(--green);
+}
+
+nav img{
+    width: 120px;
+  
+}
+
+div .card-body .card-title{
+font-weight: 300;
+font-size: 1.25em;
+color:var(--dark-blue);
+
+}
+
+div .card-body .card-text{
+    font-weight: 300;
+    font-size: 1.em;
+    color:var(--gray);
+    
+}
+
+div .card-body .address-text{
+    font-weight: 300;
+    font-size: 0.813em;
+    color:var(--gray);
+    
+}
+    
+.price-text{
+    font-weight: 300;
+    font-size: 1.em;
+    color:var(--gray);
+
+}
+.price-text strong{
+    font-weight: 500;
+    font-size: 1.25em;
+    color:var(--green);
+
+}
+
+.card-contact{
+    background-color: var(--green);
+    color: white;
+}
+
+footer .container p{
+    font-weight: 300;
+    font-size: 1em;
+    color:var(--gray)
+
+}
